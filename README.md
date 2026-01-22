@@ -1,16 +1,78 @@
-# React + Vite
+# IAT Experiment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+一个基于 React + Vite + Tailwind CSS 构建的 IAT（内隐联想测试）实验项目。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 技术栈
 
-## React Compiler
+- React 19
+- Vite 7
+- Tailwind CSS 4
+- Lucide React Icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 环境要求
 
-## Expanding the ESLint configuration
+- Node.js >= 18.0.0
+- npm >= 9.0.0
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 安装
+
+```bash
+# 克隆仓库
+git clone https://github.com/你的用户名/iat-experiment.git
+
+# 进入项目目录
+cd iat-experiment
+
+# 安装依赖
+npm install
+```
+
+## 开发
+
+```bash
+# 启动开发服务器
+npm run dev
+```
+
+开发服务器默认运行在 http://localhost:5173
+
+## 构建
+
+```bash
+# 构建生产版本
+npm run build
+```
+
+构建产物将输出到 `dist/` 目录。
+
+## 预览
+
+```bash
+# 预览生产构建
+npm run preview
+```
+
+## 代码检查
+
+```bash
+# 运行 ESLint
+npm run lint
+```
+
+## 项目结构
+
+```
+iat-experiment/
+├── public/          # 静态资源
+├── src/             # 源代码
+├── dist/            # 构建输出
+├── index.html       # 入口 HTML
+├── vite.config.js   # Vite 配置
+├── package.json     # 项目配置
+└── README.md        # 项目说明
+```
+
+## License
+
+MIT
