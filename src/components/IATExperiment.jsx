@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Download, Trash2, Users, X, LogOut, ArrowLeft, Eye, EyeOff, ChevronDown, ChevronUp, Check } from 'lucide-react'
 
 // ==================== 刺激词配置 (硬编码 40 个词) ====================
-const TARGET_A = ["保定", "唐山", "邯郸", "沧州", "邢台", "廊坊", "承德", "衡水", "定州", "正定"]
+const TARGET_A = ["保定", "唐山", "邯郸", "沧州", "邢台", "廊坊", "承德", "衡水", "定州", "秦皇岛"]
 const TARGET_B = ["太原", "沈阳", "郑州", "济南", "西安", "合肥", "长春", "兰州", "银川", "西宁"]
 const POSITIVE = ["快乐", "幸福", "美好", "成功", "优秀", "喜爱", "友善", "智慧", "真诚", "幸运"]
 const NEGATIVE = ["痛苦", "悲伤", "丑陋", "失败", "糟糕", "厌恶", "冷漠", "愚蠢", "虚伪", "倒霉"]
